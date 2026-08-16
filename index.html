@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jet Wars</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="game-container">
+    
+    <div id="start-screen">
+      <h1>Jet Wars</h1>
+      <p>Defend your jet and survive waves of enemies!</p>
+      <button id="startBtn">Start Game</button>
+    </div>
+    
+    <canvas id="gameCanvas" width="360" height="640"></canvas>
+    
+    <div id="score">Score: 0</div>
+    <div id="level">Level: 1</div>
+    <button id="pauseBtn" style="position:absolute;top:55px;right:10px;z-index:10;">⏸️</button>
+    
+    <div id="level-complete" style="display: none;">
+      <h2>Level <span id="currentLevelDisplay"></span> Complete!</h2>
+      <p id="text">Get ready for the next level...</p>
+      <button id="continueBtn">▶️ Continue</button>
+    </div>
+
+    <div id="control-bar">
+      <button id="leftBtn">⬅️</button>
+      <button id="shootBtn">🔫</button>
+      <button id="rightBtn">➡️</button>
+    </div>
+    
+    <button id="restartBtn" style="display: none;">🔁 Restart</button>
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
