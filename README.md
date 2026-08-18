@@ -2,7 +2,7 @@
 
 A fast-paced, retro-style 2D arcade shooter built with **HTML5 Canvas, CSS3, and Vanilla JavaScript**. Defend your jet, survive enemy waves, advance through challenging levels, and beat boss encounters!
 
-![Jet Wars Gameplay Banner](jet-war.pnng)
+![Jet Wars Gameplay Banner](jet-war.png)
 
 ---
 
@@ -37,6 +37,8 @@ A fast-paced, retro-style 2D arcade shooter built with **HTML5 Canvas, CSS3, and
 ## 🛠️ Project Structure
 
 ```text
+├── images/        # Player, enemy jets, background, and boss sprites
+├── sounds/        # Background music and shooting/explosion SFX
 ├── index.html     # Game UI, canvas element, and overlay controls
 ├── style.css      # Portrait game container, control bar, and button styling
-└── script.js     # Game loop, movement physics, bullet firing, and collision detection
+└── script.js      # Game loop, movement physics, bullet firing, and collision detection
